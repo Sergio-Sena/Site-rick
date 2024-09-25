@@ -160,6 +160,28 @@ body {
           justify-content: space-between;
 }
 
+/* Estilo da logo */
+nav .logo {
+  max-height: 70px; /* Aumenta a altura máxima da logo */
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-right: 20px;
+  object-fit: contain;
+  transition: transform 0.3s ease; /* Animação suave ao passar o mouse */
+}
+
+nav .logo:hover {
+  transform: scale(1.5); /* Efeito de destaque ao passar o mouse */
+}
+
+.Logo_Header {
+  padding: 10px; /* Espaçamento ao redor da logo */
+  border-radius: 5px; /* Bordas arredondadas */
+  text-align: center; /* Centraliza a logo */
+  margin-right: 30px; /* Espaço entre logo e menu */
+}
+
 .header_top .contact_link-container a {
   display: -webkit-box;
   display: -ms-flexbox;

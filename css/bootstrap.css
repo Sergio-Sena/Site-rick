@@ -7813,7 +7813,7 @@ button.bg-dark:focus {
   border: 0;
 }
 
-.sr-only-focusable:active, .sr-only-focusable:focus {
+.sr-only-focusable:inactive, .sr-only-focusable:focus {
   position: static;
   width: auto;
   height: auto;
